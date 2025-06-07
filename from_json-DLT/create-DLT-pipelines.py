@@ -4,7 +4,7 @@ import json
 
 # COMMAND ----------
 
-DATABRICKS_INSTANCE = "https://e2-demo-field-eng.cloud.databricks.com"
+DATABRICKS_INSTANCE = dbutils.secrets.get( "dais-2025-json-parsing-demo", "db-instance")
 token = dbutils.secrets.get( "dais-2025-json-parsing-demo", "token")
 
 # COMMAND ----------
