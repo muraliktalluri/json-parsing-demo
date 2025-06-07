@@ -24,5 +24,3 @@ Shows the 3 approaches of how from_json(without DLT) is used for processing JSON
 - **from_json-no-schema**: Code for the DLT pipeline that doesn't use use schema hint.
 - **prime-schema-of-json-agg**: Priming your schema using schema_of_json_agg.
 - **from_json-prime-schema**: Code for the DLT pipeline that uses schema hint, the result of schema_of_json_agg.
-- **no-schema-rescue-count**: SQL for checking _rescued_data column when no schema hint is specified.
-- **prime-schema-resuce-count**: SQL for checking _rescued_data column when schema hint is specified.
